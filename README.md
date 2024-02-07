@@ -20,7 +20,7 @@ This is APP for developers who want to write about tech SO THAT they can publish
 - [License Section](#license-section)
 - [License Badge](#license-badge)
 - [Link to Video](#link-video)
-- [Screenshot of the deployed App](#screenshot-of-the-deployed-app)
+- [Screenshot of the deployed App](#deployed-app)
 
 ## Installation Instructions <a id="installation-instructions"></a>
 
