@@ -66,3 +66,5 @@ Please refere to github The MIT License license or to click the link above
 N/A
 
 ## Screenshot of the Deployed App<a id="deployed-app"></a>
+
+![the screen of the The tech blog APP](./public/img/Screenshot-tech-blog.png)
