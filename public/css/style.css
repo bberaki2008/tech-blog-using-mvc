@@ -26,10 +26,14 @@ h1 a{
     background:#F0FFF0;
     padding: 1px;
     margin: 1.5rem;
-    border-radius: 7px;
+    border-radius: 8px;
     color:#2b1a1a;
-    box-shadow: 3px 6px #F0FFF0;
+    box-shadow: 5px 5px #8c8d8c;
     font-weight: 600;
+}
+h1 a:hover{
+    background: #bfe2bf;
+    color: #a98989;
 }
 
 .blog-title{
@@ -52,7 +56,7 @@ h1 a{
 h2 a {
     color: #737773;
 }
-h2 a:hover , .blog-title:hover{
+h2 a:hover , h1 a:hover, .blog-title:hover{
     color: #F0FFF0;
     text-decoration: none;
 }
