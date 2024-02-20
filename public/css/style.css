@@ -56,7 +56,12 @@ h1 a:hover{
 h2 a {
     color: #737773;
 }
-h2 a:hover , h1 a:hover, .blog-title:hover{
+ h1 a:hover, .blog-title:hover, h2 a:hover{
+    color: #F0FFF0;
+    text-decoration: none;
+}
+
+#blog:hover{
     color: #F0FFF0;
     text-decoration: none;
 }
