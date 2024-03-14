@@ -29,11 +29,11 @@
 
         {{#each blogs as |blog|}}
         <div class="row mb-2">
-            <div class="col-md-8">
+            <div class="col-md-6">
                 <h4><a href="/blog/{{blog.id}}">{{blog.title}}</a></h4>
             </div>
-            <div class="col-md-4">
-                <button class="btn btn-sm btn-danger" data-id="{{blog.id}}">DELETE</button>
+            <div class="col-md-6">
+                <button class="btn btn-sm btn-danger" data--put="{{blog.id}}">DELETE</button>
             </div>
         </div>
         {{/each}}
@@ -41,4 +41,4 @@
     {{/if}}
 </div>
 
-<script src="./js/profile.js"></script>
+<script src="./js/dashboard.js"></script>
