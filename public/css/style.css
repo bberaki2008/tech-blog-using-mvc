@@ -69,3 +69,21 @@ h2 a {
     color:#2b1a1a;
     font-size: 1rem;
 }
+
+/* .button_ {
+    width: 100px;
+    height: 30px;
+    background: rgb(226, 226, 109);
+    padding-bottom: 3px;
+    padding-top: 3px;
+    color: white;
+    text-decoration: none;
+
+}
+*/
+
+.btn.btn-sm,
+.btn {
+
+    margin-top: 0.5rem;
+} 

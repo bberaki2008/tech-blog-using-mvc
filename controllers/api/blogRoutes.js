@@ -3,7 +3,7 @@ const { Blog } = require('../../models');
 const withAuth = require('../../utils/auth');
 
 //updating Blog
-router.put('/:id', withAuth, async (req, res) => {
+router.put('blog/:id', withAuth, async (req, res) => {
     try {
       const blogData = await Blog.update(req.body, {
         where: {

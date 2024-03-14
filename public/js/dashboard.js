@@ -14,7 +14,7 @@ const newFormHandler = async (event) => {
     });
 
     if (response.ok) {
-      document.location.replace('/dashboard');
+      document.location.replace('/profile');
     } else {
       alert('Failed to create blog');
     }
@@ -30,7 +30,7 @@ const delButtonHandler = async (event) => {
     });
 
     if (response.ok) {
-      document.location.replace('/dashboard');
+      document.location.replace('/profile');
     } else {
       alert('Failed to delete blog');
     }
@@ -63,7 +63,7 @@ const updateBlog = async (event) => {
     });
 
     if (response.ok) {
-      document.location.replace('/dashboard');
+      document.location.replace('/profile');
     } else {
       alert('Failed to create blog');
     }
@@ -71,3 +71,4 @@ const updateBlog = async (event) => {
 };
 
 document.querySelector('.update-blog-form').addEventListener('submit', updateBlog);
+
